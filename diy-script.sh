@@ -137,6 +137,13 @@ sed -i 's/"设置向导"/"向导"/g' `egrep "设置向导" -rl ./`
 sed -i 's/"USB 打印服务器"/"打印服务"/g' `egrep "USB 打印服务器" -rl ./`
 sed -i 's/"挂载 SMB 网络共享"/"SMB网络共享"/g' `egrep "挂载 SMB 网络共享" -rl ./`
 sed -i 's/"解锁网易云灰色歌曲"/"解锁网易云"/g' `egrep "解锁网易云灰色歌曲" -rl ./`
+sed -i 's/"AirPlay 2 音频接收器"/"音频接收器"/g' `egrep "AirPlay 2 音频接收器" -rl ./`
+sed -i 's/"MWAN3 分流助手"/"分流助手"/g' `egrep "MWAN3 分流助手" -rl ./`
+sed -i 's/"UU游戏加速器"/"游戏加速"/g' `egrep "UU游戏加速器" -rl ./`
+sed -i 's/"ShadowSocksR Plus+ 设置"/"SSR Plus+"/g' `egrep "ShadowSocksR Plus+ 设置" -rl ./`
+sed -i 's/"广告屏蔽大师 Plus+"/"屏广 Plus+"/g' `egrep "广告屏蔽大师 Plus+" -rl ./`
+sed -i 's/"iKoolProxy滤广告"/"过滤广告"/g' `egrep "iKoolProxy滤广告" -rl ./`
+
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
