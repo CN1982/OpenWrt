@@ -134,6 +134,9 @@ sed -i 's/"Web 管理"/"Web管理"/g' `egrep "Web 管理" -rl ./`
 sed -i 's/"管理权"/"改密码"/g' `egrep "管理权" -rl ./`
 sed -i 's/"带宽监控"/"监控"/g' `egrep "带宽监控" -rl ./`
 sed -i 's/"设置向导"/"向导"/g' `egrep "设置向导" -rl ./`
+sed -i 's/"USB 打印服务器"/"打印服务"/g' `egrep "USB 打印服务器" -rl ./`
+sed -i 's/"挂载 SMB 网络共享"/"SMB网络共享"/g' `egrep "挂载 SMB 网络共享" -rl ./`
+sed -i 's/"解锁网易云灰色歌曲"/"解锁网易云"/g' `egrep "解锁网易云灰色歌曲" -rl ./`
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
