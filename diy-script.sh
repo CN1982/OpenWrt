@@ -143,7 +143,7 @@ sed -i 's/"UU游戏加速器"/"游戏加速"/g' `egrep "UU游戏加速器" -rl .
 sed -i 's/"ShadowSocksR Plus+"/"SSR Plus+"/g' `egrep "ShadowSocksR Plus+" -rl ./`
 sed -i 's/"广告屏蔽大师 Plus+"/"屏广 Plus+"/g' `egrep "广告屏蔽大师 Plus+" -rl ./`
 sed -i 's/"iKoolProxy 滤广告"/"过滤广告"/g' `egrep "iKoolProxy 滤广告" -rl ./`
-sed -i 's/"DDNSTO 远程控制"/"远程控制"/g' `egrep "DDNSTO 远程控制" -rl ./`
+# sed -i 's/"DDNSTO 远程控制"/"远程控制"/g' `egrep "DDNSTO 远程控制" -rl ./`
 
 ./scripts/feeds update -a
 ./scripts/feeds install -a
