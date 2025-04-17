@@ -34,7 +34,7 @@ git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/networ
 
 #升级golang 为 1.22.x 版本
 rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 22.x feeds/packages/lang/golang
+git clone https://github.com/sbwml/packages_lang_golang -b 24.x feeds/packages/lang/golang
 
 # 科学上网插件
  git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
